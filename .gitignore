@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿# Archivos y carpetas de Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-namespace Evaluacion_3
-{
-    class _
-    {
-    }
-}
+# Carpetas de salida de compilación
+bin/
+obj/
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del paquete NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+project.lock.json
